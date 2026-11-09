@@ -308,31 +308,24 @@ env.close()
 
 ## Output
 
-```
 <img width="241" height="91" alt="Screenshot 2026-11-09 110720" src="https://github.com/user-attachments/assets/af501d7c-f732-4615-9d10-6b3c7015cd77" />
 
 <img width="209" height="58" alt="Screenshot 2026-11-09 110726" src="https://github.com/user-attachments/assets/4d65e7cb-ba53-4996-a3e8-e1f6aea64d10" />
 
 <img width="215" height="188" alt="Screenshot 2026-11-09 110837" src="https://github.com/user-attachments/assets/b07a5b91-3c8f-4cf4-8084-ffe352b0e13f" />
 
-```
 
-
-
----
 
 ## Result
 
-```
+
 Thus, the Policy Iteration algorithm was successfully implemented using the Gymnasium FrozenLake-v1 environment. The algorithm performed policy evaluation and policy improvement repeatedly until the policy became stable. The optimal state-value function and optimal policy were obtained and displayed in a 4 × 4 grid.
 
-```
----
+
 
 ## Inference
-```
+
 Policy evaluation calculates the value of each state under the current policy. Policy improvement selects the best action based on the estimated state values. The algorithm repeats these steps until the policy becomes stable. The optimal policy guides the agent toward the goal while avoiding holes as much as possible.
 
-```
----
+
 
